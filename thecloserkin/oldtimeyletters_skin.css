@@ -1,11 +1,12 @@
 blockquote.letter {
 	position: relative;
-	margin: 1em auto;
-	border: none;
+	border: none; /* turn off left border */
+	margin: 1em auto; /* 1em buffer at vertical ends; center horizontally */
 	max-width: 70ch;
 	padding: 2em;
-	background: #f8ede1;
 	font-size: 1.25em;
+	/* Coloring: base and edges (inset glow) */
+	background: #f8ede1;
 	box-shadow: inset 0 0 5em #ddc6a9;
 }
 
@@ -20,11 +21,15 @@ blockquote.letter::before {
 	opacity: 0.3;
 }
 
+/* Only very slight space between paragraphs */
 blockquote.letter p {
 	margin: 0.25em;
 }
 
-/* parts of the letter */
+/**************************************************
+*	Parts of the letter
+**************************************************/
+/* heading; date/place; right */
 blockquote.letter .heading {
 	margin-left: auto;
 	margin-right: 0;
@@ -47,10 +52,12 @@ blockquote.letter p.signature {
 	margin-left: auto;
 }
 
+/* "yours truly"; "sincerely"; "your brother, who loves you as he loves himself"; etc. */
 blockquote.letter p.closing {
 	margin-top: 0.5em;
 }
 
+/* big cursive name */
 blockquote.letter p.signature {
 	font-size: 1.5em;
 	text-align: center;
