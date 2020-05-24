@@ -1,0 +1,6 @@
+- [x] Borders for scenes
+- [x] iMessage
+  - [X] No border
+  - [x] Grouptext
+- [x] WhatsApp
+  - [X] No nudes shitpost feature™
