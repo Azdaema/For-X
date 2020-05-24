@@ -29,6 +29,3 @@
 .podfic .content iframe {
 	width: 100%;
 }
-iframe[src^="https://archive.org/embed/"]:not([src*="playlist=1"]) {
-	height: 30px;
-}
