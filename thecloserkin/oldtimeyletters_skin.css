@@ -9,7 +9,6 @@ blockquote.letter {
 	background: #f8ede1;
 	box-shadow: inset 0 0 5em #ddc6a9;
 }
-
 /* setup for texture */
 blockquote.letter::before {
 	content: "";
@@ -26,10 +25,6 @@ blockquote.letter p {
 	margin: 0.25em;
 }
 
-/**************************************************
-*	Parts of the letter
-**************************************************/
-/* heading; date/place; right */
 blockquote.letter .heading {
 	margin-left: auto;
 	margin-right: 0;
@@ -38,7 +33,7 @@ blockquote.letter .heading {
 	font-family: inherit;
 }
 
-/* body, paragraphs */
+/* body of letter paragraphs */
 blockquote.letter > p:not([class]) {
 	text-indent: 2em;
 }
@@ -52,12 +47,10 @@ blockquote.letter p.signature {
 	margin-left: auto;
 }
 
-/* "yours truly"; "sincerely"; "your brother, who loves you as he loves himself"; etc. */
 blockquote.letter p.closing {
 	margin-top: 0.5em;
 }
 
-/* big cursive name */
 blockquote.letter p.signature {
 	font-size: 1.5em;
 	text-align: center;
