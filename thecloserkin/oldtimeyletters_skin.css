@@ -66,12 +66,19 @@ blockquote.letter.Dorothy {
 	outline-offset: -2em;
 }
 blockquote.letter.Dorothy::before {
-	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skins/master/Texture2.jpg");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/thecloserkin/Texture2.jpg");
 }
 
 blockquote.letter.William {
 	font-family: "Bilbo", Zapfino, auto;
 }
 blockquote.letter.William::before {
-	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skins/master/Texture1.jpg");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/thecloserkin/Texture1.jpg");
+}
+#workskin .letter.William .signature {
+	color: transparent;
+	width: 20ch;
+	background: url("https://raw.githubusercontent.com/Azdaema/For-X/master/thecloserkin/WilliamWordsworth_signature.png");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
