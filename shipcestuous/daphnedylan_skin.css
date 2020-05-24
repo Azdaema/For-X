@@ -1,0 +1,46 @@
+/* the whole thing is narrower than an average A03 work */
+.userstuff.module {
+	max-width: 700px;
+	margin: auto
+}
+
+/* <hr/> give double lines */
+.userstuff.module hr {
+	border: 2px solid gray;
+	border-left: none;
+	border-right: none;
+	height: 1em;
+	width: 100%
+}
+
+/* gif section */
+p.gifs {
+	display: grid;
+	width: max-content;
+	max-width: 100%;
+	background: #000;
+	padding: 3px
+}
+.gifs img {
+	padding: 3px;
+	margin: auto;
+	max-width: 100%
+}
+
+/* make a larger/smaller gif the standard size */
+.normsize {
+	width: 269px
+}
+
+/* FAQ List */
+dl.faq dt::before,
+dl.faq dd::before {
+	font-weight: bold
+}
+
+dl.faq dt::before {
+	content: "Q: "
+}
+dl.faq dd::before {
+	content: "A: "
+}
