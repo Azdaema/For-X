@@ -28,7 +28,7 @@ p:empty {
 	vertical-align: middle;
 	max-width: 450px;
 	width: 100%;
-	margin: 0.5em 0;
+	margin: 0.5em 0;/* so the panels don't touch each other on phones */
 	/* make text normal again */
 	letter-spacing: initial;
 	text-align: left;
