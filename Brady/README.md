@@ -6,5 +6,5 @@
   - [ ] Grouptext
   - [ ] SMS
   - [ ] Read receipts
-- [x] WhatsApp
+- [x] Snapchat
   - [X] No nudes shitpost feature™
