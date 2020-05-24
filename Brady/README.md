@@ -1,6 +1,10 @@
 - [x] Borders for scenes
+- [x] `<h3>` for scene breaks; `<h4>` for continuations of the same scene
 - [x] iMessage
-  - [X] No border
-  - [x] Grouptext
+  - [x] Time labels (for `<h3>` and `<h4>`)
+  - [x] Rich links
+  - [ ] Grouptext
+  - [ ] SMS
+  - [ ] Read receipts
 - [x] WhatsApp
   - [X] No nudes shitpost feature™
