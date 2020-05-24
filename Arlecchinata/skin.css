@@ -1,0 +1,59 @@
+/* Don't show "(See the end of the work for notes.)" since podfic posts are usually so short */
+.notes.module .jump {
+	display: none;
+}
+
+/* neutralize <p> because AO3 will try to wrap everything in them */
+p:empty {
+	display: none !important;
+}
+.podfic p {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* wrapper */
+.podfic {
+	display: block;
+	text-align: center;
+	letter-spacing: 0.7em;
+}
+
+/* basic shared traits of both panels */
+.podfic .cover,
+.podfic .content {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 450px;
+	width: 100%;
+	letter-spacing: initial;
+	text-align: left;
+	margin: 0.5em 0;
+}
+
+/* cover art */
+.podfic .cover img {
+	width: 100%;
+	display: block;
+}
+
+/* text panel */
+.podfic .content {
+	min-height: 450px;
+	box-sizing: border-box;
+	border: 0.1em solid black;
+	outline: 0.1em solid black;
+	outline-offset: -0.7em;
+	padding: 1.2em;
+}
+
+/* audio players */
+.podfic .content audio,
+.podfic .content iframe {
+	width: 100%;
+}
+iframe[src^="https://archive.org/embed/"]:not([src*="playlist=1"]) {
+	height: 30px;
+}
