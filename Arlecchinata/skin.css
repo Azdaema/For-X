@@ -65,6 +65,8 @@ p:empty {
 .podfic .content .inner {
 	position: absolute;
 	padding: 1.2em;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 /* audio players */
