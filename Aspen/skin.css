@@ -436,6 +436,25 @@ blockquote.phone * {
 	background-size: 20px auto, auto 16px, auto 16px;
 }
 
+/* groupchat */
+.whatsapp .in dd:first-of-type::before {
+	display: block;
+	font-weight: bold;
+}
+
+.whatsapp .in.jaime dd:first-of-type::before {
+	content: "Jaime";
+	color: #dfa64f;
+}
+.whatsapp .in.cersei dd:first-of-type::before {
+	content: "Cersei";
+	color: #e54c51;
+}
+.whatsapp .in.tyrion dd:first-of-type::before {
+	content: "Tyrion";
+	color: #58b042;
+}
+
 
 /**************************************************
 *		Longhand letter
