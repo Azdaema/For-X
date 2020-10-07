@@ -1,0 +1,496 @@
+/**************************************************
+*		Spotify playlist
+**************************************************/
+iframe[src^="https://open.spotify.com/embed/"] {
+	width: 400px;
+	max-width: 100%;
+}
+
+/**************************************************
+*		phone overall
+**************************************************/
+blockquote.phone {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	width: 100%;
+	max-width: 320px;
+	margin: auto;
+	padding: 0;
+	border: none;
+}
+
+blockquote.phone * {
+	font-family: inherit;
+}
+
+/**************************************************
+*		iMessage
+**************************************************/
+.imessage {
+	display: table;
+	width: 100%;
+}
+
+.imessage dt {
+	display: none;
+}
+
+.imessage .in,
+.imessage .out {
+	margin-left: 0.625rem;
+	margin-right: 0.625rem;
+}
+
+.imessage .in dd,
+.imessage .out dd {
+	line-height: 1.3em;
+	margin: 1px 0;
+	border-radius: 1em;
+	padding: 0.45em 0.9em;
+	max-width: 70%;
+	clear: both;
+	position: relative;
+	z-index: 1;
+}
+
+.imessage .in dd:last-of-type::after,
+.imessage .out dd:last-of-type::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0.625rem;
+	height: 1rem;
+	z-index: -1;
+}
+
+.imessage .in dd:last-child,
+.imessage .out dd:last-child {
+	margin-bottom: 1rem;
+}
+
+.imessage .out dd {
+	float: right;
+	background: #007aff;
+	color: white;
+}
+
+.imessage .out dd:last-of-type::after {
+	right: -0.625rem;
+	border-left: 0.625rem solid #007aff;
+	border-bottom-left-radius: 1.25rem 0.625rem;
+}
+
+.imessage .in dd {
+	float: left;
+	background: #e5e5ea;
+	color: black;
+}
+
+.imessage .in dd:last-of-type::after {
+	left: -0.625rem;
+	border-right: 0.625rem solid #e5e5ea;
+	border-bottom-right-radius: 1.25rem 0.625rem;
+}
+
+.imessage dd.pic::after,
+.imessage dd.emoji::after {
+	display: none;
+}
+
+.imessage dd.emoji {
+	background: none;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 3rem;
+}
+
+.imessage dd.pic {
+	background: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+.imessage dd.pic img {
+	max-width: 100%;
+	display: block;
+}
+
+.imessage dd a {
+	word-break: break-all;
+	color: inherit;
+}
+
+.imessage dd.richlink {
+	padding: 0;
+	color: black;
+	background: #e5e5ea !important;
+}
+
+.imessage dd.richlink::after {
+	border-color: #e5e5ea !important;
+}
+
+.imessage dd.richlink a {
+	display: table;
+	font-size: 0.75rem;
+	word-break: normal;
+	text-decoration: none;
+	border: none;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	overflow: hidden;
+}
+
+.imessage dd.richlink a iframe,
+.imessage dd.richlink a img {
+	display: table-row;
+	border: none;
+	max-width: 100%;
+}
+
+.imessage dd.richlink a iframe {
+	width: 210px;
+	height: 118px;
+}
+
+.imessage dd.richlink a iframe[class="SD" i] {
+	width: 210px;
+	height: 157px;
+}
+
+.imessage dd.richlink a img {
+	max-height: 250px;
+}
+
+.imessage dd.richlink a .caption {
+	display: table-caption;
+	caption-side: bottom;
+	position: relative;
+	margin: 1em 1.5em;
+	color: #8e8e93;
+}
+
+.imessage dd.richlink a .caption b {
+	display: block;
+	margin-bottom: 0.5em;
+	color: black;
+}
+
+.imessage dd.richlink a iframe + .caption {
+	margin-right: 2.5em;
+}
+
+.imessage dd.richlink a iframe + .caption::after {
+	content: "";
+	position: absolute;
+	right: -1em;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 0.75em;
+	height: 0.75em;
+	border-right: 1.5px solid #8e8e93;
+	border-bottom: 1.5px solid #8e8e93;
+	transform: rotate(-45deg);
+}
+
+.imessage .in dd.typing::before,
+.imessage .in dd.typing::after {
+	content: "";
+	position: absolute;
+	border-radius: 100%;
+	background: #e5e5ea;
+	border: none;
+}
+
+.imessage .in dd.typing::after {
+	bottom: 0;
+	left: -0.15625rem;
+	width: 0.625rem;
+	height: 0.625rem;
+}
+
+.imessage .in dd.typing::before {
+	bottom: -0.2083333333rem;
+	left: -0.3125rem;
+	width: 0.3125rem;
+	height: 0.3125rem;
+}
+
+.imessage .in dd.typing div {
+	height: 0.625rem;
+	width: 0.625rem;
+	border-radius: 100%;
+	background: #8e8e93;
+	display: inline-block;
+	margin: 0.125em 0;
+}
+
+.imessage .in dd.typing div:nth-child(1) {opacity: 0.4;}
+.imessage .in dd.typing div:nth-child(2) {opacity: 0.7;}
+.imessage .in dd.typing div:nth-child(3) {opacity: 1;}
+
+.imessage .time,
+.imessage.grouptext .in dt {
+	clear: both;
+	font-weight: normal;
+	color: #8e8e93;
+	font-size: 0.75rem;
+}
+
+.imessage .time {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
+}
+
+.imessage.grouptext .in dt {
+	padding-left: 1em;
+	display: table !important;
+}
+
+
+/**************************************************
+*		WhatsApp
+**************************************************/
+.whatsapp {
+	display: table;
+	width: 100%;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.whatsapp dt {
+	display: none;
+}
+
+.whatsapp dd {
+	max-width: 65%;
+	clear: both;
+	position: relative;
+	color: #000000;
+	line-height: 1.25em;
+	border-radius: 5px;
+	padding: 2px 5px;
+	margin: 1px 15px;
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+	z-index: 1;
+}
+
+.whatsapp dd:last-child {
+	margin-bottom: 10px;
+}
+
+.whatsapp dd:last-of-type:after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 16px;
+	bottom: 4px;
+	border-top: 9px solid;
+	border-radius: 100%;
+	clip: rect(0px,16px,16px,0px);
+	z-index: -1;
+}
+
+.whatsapp .out dd {
+	float: right;
+	background: #DCF8C6;
+}
+
+.whatsapp .out dd:last-of-type:after {
+	border-color: #DCF8C6;
+	transform: rotate(240deg);
+	right: -16px;
+}
+
+.whatsapp .in dd {
+	float: left;
+	background: #FFFFFF;
+}
+
+.whatsapp .in dd:last-of-type:after {
+	border-color: #FFFFFF;
+	transform: scaleX(-1) rotate(240deg);
+	left: -16px;
+}
+
+.whatsapp .day,
+.whatsapp dd sub {
+	font-size: 0.75em;
+	color: #999;
+	text-transform: uppercase;
+}
+
+.whatsapp .day {
+	width: 100px;
+	background: #D4EAF4;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px auto;
+	text-align: center;
+	display: table;
+}
+
+.whatsapp dd sub {
+	display: inline-block;
+	float: right;
+	line-height: 1.3em;
+	padding-top: 0.5em;
+	padding-left: 1.5em;
+	margin: 0;
+}
+
+.whatsapp .out dd sub:after {
+	content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
+	margin-left: 3px;
+}
+
+.whatsapp dd.emoji1 {font-size: 2.5em;}
+.whatsapp dd.emoji2 {font-size: 2em;}
+.whatsapp dd.emoji3 {font-size: 1.5em;}
+
+.whatsapp dd.emoji1 sub,
+.whatsapp dd.emoji2 sub,
+.whatsapp dd.emoji3 sub {
+	display: block;
+	float: none;
+	text-align: right;
+	padding: 0 !important;
+}
+
+.whatsapp dd.emoji1 sub {font-size: 0.3em;}
+.whatsapp dd.emoji2 sub {font-size: 0.375em;}
+.whatsapp dd.emoji3 sub {font-size: 0.5em;}
+
+.whatsapp .pic {
+	padding: 3px;
+}
+
+.whatsapp .pic img {
+	border-radius: 3px;
+	width: 100%;
+	display: block;
+}
+
+.whatsapp .pic.solo sub {
+	color: #ffffff;
+	position: absolute;
+	bottom: 2px;
+	right: 5px;
+}
+
+.whatsapp a {
+	word-break: break-all;
+}
+
+.whatsapp > div.in,
+.whatsapp > div.out {
+	margin-top: 0.5em;
+}
+
+/* contact header */
+.whatsapp .contact {
+	position: relative;
+	background: #075E54;
+	margin: 0;
+	padding: 10px;
+	line-height: 30px;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 65px;
+	padding-right: 120px;
+	max-width: 135px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border: none;
+}
+
+.whatsapp .contact:before,
+.whatsapp .contact:after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	background-repeat: no-repeat;
+}
+
+.whatsapp .contact:before {
+	left: 5px;
+	width: 50px;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-left.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-user-circle.png");
+	background-position: left, right;
+	background-size: auto 15px, 30px;
+}
+
+.whatsapp .contact:after {
+	right: 10px;
+	width: 100px;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-video.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-phone-alt.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-ellipsis-v.png");
+	background-position: 0, 46px, 90px;
+	background-size: 20px auto, auto 16px, auto 16px;
+}
+
+
+/**************************************************
+*		Longhand letter
+**************************************************/
+blockquote.letter {
+	font-family: "FranciscoLucas Llana", "Savoye Let", "Bilbo", "Zapfino", auto;
+	position: relative;
+	border: none;
+	margin: 1em auto;
+	max-width: 70ch;
+	padding: 2em;
+	font-size: 1.25em;
+	background: #f8ede1;
+	box-shadow: inset 0 0 5em #ddc6a9;
+}
+
+blockquote.letter::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	opacity: 0.3;
+}
+
+blockquote.letter p {
+	margin: 0.25em;
+}
+
+blockquote.letter .heading {
+	margin-left: auto;
+	margin-right: 0;
+	width: max-content;
+	max-width: 100%;
+}
+
+blockquote.letter > p:not([class]) {
+	text-indent: 2em;
+}
+
+blockquote.letter p.closing,
+blockquote.letter p.signature {
+	min-width: 25%;
+	width: max-content;
+	max-width: 80%;
+	margin-right: 15%;
+	margin-left: auto;
+}
+
+blockquote.letter p.closing {
+	margin-top: 0.5em;
+}
+
+blockquote.letter p.signature {
+	font-size: 1.5em;
+	text-align: center;
+}
