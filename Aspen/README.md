@@ -3,4 +3,5 @@
   - [X] No border
   - [x] Grouptext
 - [x] Whatsapp
-  - [ ] Grouptext
+  - [x] Header
+  - [x] Grouptext
