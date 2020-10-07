@@ -2,6 +2,7 @@
 - [x] iMessage
   - [X] No border
   - [x] Grouptext
+  - [x] Contact header
 - [x] Whatsapp
-  - [x] Header
   - [x] Grouptext
+  - [x] Contact header
