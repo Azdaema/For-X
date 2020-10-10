@@ -10,7 +10,7 @@ iframe[src^="https://open.spotify.com/embed/"] {
 *		phone overall
 **************************************************/
 blockquote.phone {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", system-ui;
 	width: 100%;
 	max-width: 320px;
 	margin: auto;
