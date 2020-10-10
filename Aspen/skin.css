@@ -486,50 +486,28 @@ blockquote.phone * {
 /**************************************************
 *		Longhand letter
 **************************************************/
-blockquote.lined-paper {
-	font-family: "Bilbo", "Savoye Let", "Zapfino", auto;
-	font-size: 1.25rem;
-	line-height: 1.5em;
+blockquote.letter {
+	font-family: "FranciscoLucas Llana", "Savoye Let", "Bilbo", "Zapfino", cursive;
 	position: relative;
-	border: 0;
-	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
-	padding: 1.5em;
-	padding-top: 3.85em;
-	padding-left: 4em;
-	max-width: 80ch;
+	border: none;
 	margin: 1em auto;
-}
-/* left-hand pink line */
-blockquote.lined-paper::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 2.5em;
-	border-left: solid 0.1em #fcc;
-}
-/* writing lines */
-blockquote.lined-paper::before {
-	content: "";
-	position: absolute;
-	top: 3.5em;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-image: linear-gradient(rgba(153,204,255,.3) .1em, transparent .1em);
-	background-size: 100% 1.5em;
+	max-width: 70ch;
+	padding: 2em;
+	font-size: 1.25em;
+	background: #f8ede1;
+	box-shadow: inset 0 0 5em #ddc6a9;
 }
 
-.letter p {
-	margin: 0em;
+blockquote.letter p {
+	margin: 0.25em;
 }
 
-.letter > p:not([class]) {
+blockquote.letter > p:not([class]) {
 	text-indent: 2em;
 }
 
-.letter p.closing,
-.letter p.signature {
+blockquote.letter p.closing,
+blockquote.letter p.signature {
 	min-width: 25%;
 	width: max-content;
 	max-width: 80%;
@@ -537,7 +515,11 @@ blockquote.lined-paper::before {
 	margin-left: auto;
 }
 
-.letter p.signature {
+blockquote.letter p.closing {
+	margin-top: 0.5em;
+}
+
+blockquote.letter p.signature {
 	font-size: 1.5em;
 	text-align: center;
 }
