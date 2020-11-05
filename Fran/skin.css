@@ -1,0 +1,128 @@
+/**************************************************
+*		iPhone lockscreen
+**************************************************/
+blockquote.phone {
+	border: none;
+}
+
+.notifications {
+	font-family: "Helvetica Neue", "Helvetica", system-ui;
+	max-width: 400px;
+	margin: auto;
+}
+
+.notifications dt {
+	font-weight: bold;
+}
+
+.notifications dd {
+	margin: 0;
+}
+
+.notifications .text,
+.notifications .call {
+	border: 1px solid rgba(127,127,127, 0.5);
+	background: rgb(218, 218, 218, 0.25);
+	border-radius: 1em;
+	padding: 0.7em;
+	margin: 0.25em;
+	position: relative;
+}
+
+/* small gray font */
+.notifications .text:before,
+.notifications .call:before,
+.notifications .time {
+	color: rgba(0,0,0, 0.5);
+	font-size: 0.8em;
+}
+
+.notifications .time {
+	font-weight: normal;
+	font-family: inherit;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+
+/* icons */
+.notifications .text:before,
+.notifications .call:before {
+	display: inline-block;
+	margin-bottom: 0.5em;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: contain;
+	padding-left: 1.75em;
+	font-variant: small-caps;
+}
+
+.notifications .text:before {
+	content: "MESSAGES";
+	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40messages.png");
+}
+
+.notifications .call:before {
+	content: "PHONE";
+	background: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40calls.png");
+}
+
+/**************************************************
+*		Note card
+**************************************************/
+blockquote.notecard {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+	padding: 1em;
+	max-width: 250px;
+	height: 150px;
+	margin: auto;
+	display: flex;
+	background: #e6e6e6;
+}
+
+blockquote.notecard p {
+	margin: auto;
+	text-align: center;
+	font-family: serif;
+	color: #e6e6e6;
+	font-weight: bold;
+	font-size: 1.75em;
+	text-shadow: 0.025rem 0.05rem 0.05rem black, -0.025rem -0.05rem 0.05rem white;
+}
+
+/**************************************************
+*		"Next On"
+**************************************************/
+.next-on {
+	background: rgb(218, 218, 218, 0.5);
+	padding: .75em;
+	border-inline-start: 2px solid #999;
+	border-inline-end: 2px solid #999;
+}
+
+.next-on::before {
+	content: "Next on Perihelion";
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 1.25em;
+}
+
+.next-on p:first-child {
+	display: none;
+}
+
+.next-on p {
+	text-indent: 1em;
+}
+
+/**************************************************
+*		Misc
+**************************************************/
+.null {
+	display: none;
+}
+
+.fill-height {
+	height: 100vh;
+}
