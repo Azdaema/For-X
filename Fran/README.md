@@ -2,8 +2,11 @@ Chapter code:
 * [chpt12](./chpt12.html) and [chpt23](./chpt23.html) contain text messages.
 * [chpt10](./chpt10.html) contains a note card.
 
-<blockquote class="phone">
-  <dl class="notifications">
+# Example
+For "Hide Creator's Style" it would look something like this:
+
+<blockquote>
+  <dl>
 		<div class="call">
 			<dt>Jaime Lannister <span class="time">1m ago</span> </dt>
 			<dd>Missed call</dd>
