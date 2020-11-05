@@ -19,6 +19,7 @@ blockquote.phone {
 	margin: 0;
 }
 
+/* notification bubble */
 .notifications .text,
 .notifications .call {
 	border: 1px solid rgba(127,127,127, 0.5);
@@ -61,10 +62,9 @@ blockquote.phone {
 	content: "MESSAGES";
 	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40messages.png");
 }
-
 .notifications .call:before {
 	content: "PHONE";
-	background: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40calls.png");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40calls.png");
 }
 
 /**************************************************
@@ -78,17 +78,13 @@ blockquote.notecard {
 	height: 150px;
 	margin: auto;
 	display: flex;
-	background: #e6e6e6;
+	background: white;
+	font-size: 1.25em;
 }
 
 blockquote.notecard p {
 	margin: auto;
 	text-align: center;
-	font-family: serif;
-	color: #e6e6e6;
-	font-weight: bold;
-	font-size: 1.75em;
-	text-shadow: 0.025rem 0.05rem 0.05rem black, -0.025rem -0.05rem 0.05rem white;
 }
 
 /**************************************************
@@ -101,19 +97,15 @@ blockquote.notecard p {
 	border-inline-end: 2px solid #999;
 }
 
+/* Hide "Next on" line and replace it with smallcaps version */
 .next-on::before {
 	content: "Next on Perihelion";
 	font-weight: bold;
 	font-variant: small-caps;
 	font-size: 1.25em;
 }
-
 .next-on p:first-child {
 	display: none;
-}
-
-.next-on p {
-	text-indent: 1em;
 }
 
 /**************************************************
