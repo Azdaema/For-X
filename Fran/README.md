@@ -7,13 +7,13 @@ For "Hide Creator's Style" it would look something like this:
 
 <blockquote>
 	<dl>
-		<dt>Jaime Lannister <span>1m ago</span> </dt>
+		<dt>Jaime Lannister <dfn>1m ago</dfn> </dt>
 			<dd>Missed call</dd>
-		<dt>Jaime Lannister <span>1m ago</span> </dt>
+		<dt>Jaime Lannister <dfn title="09.37">1m ago</dfn> </dt>
 			<dd>cersei</dd>
-		<dt>Jaime Lannister <span>1m ago</span> </dt>
+		<dt>Jaime Lannister <dfn title="09.37">1m ago</dfn> </dt>
 			<dd>pick up</dd>
-		<dt>Jaime Lannister <span>now</span> </dt>
+		<dt>Jaime Lannister <dfn title="09.37">now</dfn> </dt>
 			<dd>please</dd>
 	</dl>
 </blockquote>
