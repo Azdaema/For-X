@@ -6,22 +6,14 @@ Chapter code:
 For "Hide Creator's Style" it would look something like this:
 
 <blockquote>
-  <dl>
-		<div>
-			<dt>Jaime Lannister <span>1m ago</span> </dt>
+	<dl>
+		<dt>Jaime Lannister <span>1m ago</span> </dt>
 			<dd>Missed call</dd>
-		</div>
-		<div>
-			<dt>Jaime Lannister <span>1m ago</span> </dt>
+		<dt>Jaime Lannister <span>1m ago</span> </dt>
 			<dd>cersei</dd>
-		</div>
-		<div>
-			<dt>Jaime Lannister <span>1m ago</span> </dt>
+		<dt>Jaime Lannister <span>1m ago</span> </dt>
 			<dd>pick up</dd>
-		</div>
-		<div>
-			<dt>Jaime Lannister <span>now</span> </dt>
+		<dt>Jaime Lannister <span>now</span> </dt>
 			<dd>please</dd>
-		</div>
 	</dl>
 </blockquote>
