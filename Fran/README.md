@@ -7,20 +7,20 @@ For "Hide Creator's Style" it would look something like this:
 
 <blockquote>
   <dl>
-		<div class="call">
-			<dt>Jaime Lannister <span class="time">1m ago</span> </dt>
+		<div>
+			<dt>Jaime Lannister <span>1m ago</span> </dt>
 			<dd>Missed call</dd>
 		</div>
-		<div class="text">
-			<dt>Jaime Lannister <span class="time">1m ago</span> </dt>
+		<div>
+			<dt>Jaime Lannister <span>1m ago</span> </dt>
 			<dd>cersei</dd>
 		</div>
-		<div class="text">
-			<dt>Jaime Lannister <span class="time">1m ago</span> </dt>
+		<div>
+			<dt>Jaime Lannister <span>1m ago</span> </dt>
 			<dd>pick up</dd>
 		</div>
-		<div class="text">
-			<dt>Jaime Lannister <span class="time">now</span> </dt>
+		<div>
+			<dt>Jaime Lannister <span>now</span> </dt>
 			<dd>please</dd>
 		</div>
 	</dl>
