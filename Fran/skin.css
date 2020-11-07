@@ -5,11 +5,11 @@ blockquote.phone {
 	border: none;
 	max-width: 400px;
 	margin: auto;/*center*/
+	font-family: "Helvetica Neue", "Helvetica", system-ui;
 }
 
 .notifications {
 	margin: 0;
-	font-family: "Helvetica Neue", "Helvetica", system-ui;
 }
 
 .notifications dt {
@@ -63,6 +63,7 @@ blockquote.phone {
 	content: "MESSAGES";
 	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40messages.png");
 }
+
 .notifications .call:before {
 	content: "PHONE";
 	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/Fran/40calls.png");
