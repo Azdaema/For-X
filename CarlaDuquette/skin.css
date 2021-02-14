@@ -1,5 +1,7 @@
+/**************************************************
+*		Wrappers
+**************************************************/
 blockquote.phone {
-	font-family: "Helvetica Neue", "Helvetica", system-ui;
 	width: 100%;
 	max-width: 320px;
 	margin: auto;
@@ -8,6 +10,7 @@ blockquote.phone {
 }
 
 .whatsapp {
+	font-family: "Helvetica Neue", "Helvetica", system-ui;
 	display: table;
 	width: 100%;
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
