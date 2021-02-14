@@ -14,3 +14,5 @@ For a back-and-forth convo, it'd be something like this:
 	</dl>
 </blockquote>
 ```
+
+`out` means an outgoing message (aka one sent from the POV phone). `in` means an incoming message.
