@@ -12,9 +12,7 @@ Conversations are built around the `<dl>` list, which you can learn more about [
 For a better rundown of the features of WhatApp that this skin has, see [here](https://github.com/Azdaema/AO3-Skin_Messaging/tree/master/WhatsApp).
 
 # Convos
-For a back-and-forth convo, it'd be something like this. To see the demo, go [here](https://codepen.io/Azdaema/pen/qBqRJaJ).
-
-`out` means an outgoing message (aka one sent from the POV phone). `in` means an incoming message.
+For a back-and-forth convo, it'd be something like this. `out` means an outgoing message (aka one sent from the POV phone). `in` means an incoming message.
 
 ```html
 <blockquote class="phone">
