@@ -1,7 +1,8 @@
 - [x] Borders for scenes
-- [x] `<h3>` for scene breaks; `<h4>` for continuations of the same scene
+  - [x] `<hr>` for scene breaks in "Hide Creator's Style"
+- [x] `<h4>` for time labels
 - [x] iMessage
-  - [x] Time labels (for `<h3>` and `<h4>`)
+  - [x] Time labels
   - [x] Rich links
   - [ ] Grouptext
   - [ ] SMS
