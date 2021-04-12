@@ -12,21 +12,9 @@ Currently `notifications` is set up with 2 different types of notifications: `te
 ```html
 <blockquote class="phone">
 	<dl class="notifications">
-		<div class="call">
-			<dt>Jaime Lannister <span class="time">2m ago</span> </dt>
-			<dd>Missed call</dd>
-		</div>
-		<div class="text">
-			<dt>Jaime Lannister <span class="time">1m ago</span> </dt>
-			<dd>cersei</dd>
-		</div>
-		<div class="text">
-			<dt>Jaime Lannister <span class="time">1m ago</span> </dt>
-			<dd>pick up</dd>
-		</div>
 		<div class="text">
 			<dt>Jaime Lannister <span class="time">now</span> </dt>
-			<dd>please</dd>
+			<dd>I'm outside. We can still run.</dd>
 		</div>
 	</dl>
 </blockquote>
@@ -39,7 +27,7 @@ If you want to be able to hover over a notification and see the absolute time it
 	<dl class="notifications">
 		<dfn class="text" title="19:35">
 			<dt>Jaime Lannister <span class="time">now</span> </dt>
-			<dd>I’m outside. We can still run.</dd>
+			<dd>I'm outside. We can still run.</dd>
 		</dfn>
 	</dl>
 </blockquote>
