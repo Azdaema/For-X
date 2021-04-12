@@ -35,11 +35,15 @@ If you want to be able to hover over a notification and see the absolute time it
 </blockquote>
 ```
 
+`<dfn>` doesn't show up on mobile. On a phone, both of the two would function the same.
+
 ## Hide Creator's Style
 If a reader clicks "Hide Creator's Style" then it would look like this:
-<dl class="notifications">
-		<dfn class="text" title="19:35">
+<blockquote class="phone">
+	<dl class="notifications">
+		<div class="text">
 			<dt>Jaime Lannister <span class="time">now</span> </dt>
 			<dd>I'm outside. We can still run.</dd>
-		</dfn>
+		</div>
 	</dl>
+</blockquote>
