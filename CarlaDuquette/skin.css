@@ -1,6 +1,3 @@
-/**************************************************
-*		Wrappers
-**************************************************/
 blockquote.phone {
 	width: 100%;
 	max-width: 320px;
@@ -44,8 +41,7 @@ blockquote.phone {
 }
 
 /* spacing */
-.whatsapp div.in:first-child,
-.whatsapp div.out:first-child {
+.whatsapp div:first-of-type {
 	margin-top: 0.5em;
 }
 .whatsapp dd:last-child {
@@ -161,7 +157,6 @@ blockquote.phone {
 	right: 5px;
 }
 
-
 /**************************************************
 *		Contact header
 **************************************************/
@@ -170,7 +165,7 @@ blockquote.phone {
 	background: #075E54;
 	margin: 0;
 	padding: 10px;
-	line-height: 30px;
+	line-height: 2em;
 	font-size: 15px;
 	color: #FFFFFF;
 	font-weight: bold;
@@ -194,17 +189,21 @@ blockquote.phone {
 }
 
 .whatsapp .contact:before {
-	left: 5px;
-	width: 50px;
-	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-left.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-user-circle.png");
-	background-position: left, right;
-	background-size: auto 15px, 30px;
+	left: 10%;
+	width: 2em;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-user-circle.png");
+	border-radius: 50%;
+	background-position: left;
+	background-size: 2em;
+}
+.whatsapp .contact.valerio:before {
+	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/CarlaDuquette/IconPic_Val.png");
 }
 
 .whatsapp .contact:after {
-	right: 10px;
-	width: 100px;
-	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-video.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-phone-alt.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-ellipsis-v.png");
-	background-position: 0, 46px, 90px;
-	background-size: 20px auto, auto 16px, auto 16px;
+	right: 5px;
+	width: 100%; 
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-left.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-video.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-phone-alt.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-ellipsis-v.png");
+	background-position: 5%, 73%, 86%, 95%;
+	background-size: auto 1em, 1.3em auto, auto 1em, auto 1em;
 }
