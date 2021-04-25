@@ -1,4 +1,6 @@
 [DEMO](https://codepen.io/Azdaema/pen/qBqRJaJ)
+* [Best Friends Forever](https://archiveofourown.org/works/29088888)
+* [When I falter, at least it was my mistake](https://archiveofourown.org/works/27730549)
 
 # Skins
 Skins are CSS files you can pair with AO3 works. For more about skins, go [here](https://archiveofourown.org/admin_posts/80)
