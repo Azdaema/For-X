@@ -172,6 +172,8 @@ blockquote.phone {
 *		Contact header
 **************************************************/
 .whatsapp .contact {
+	max-width: 320px;
+	box-sizing: border-box;
 	position: relative;
 	background: #075E54;
 	margin: 0;
@@ -181,9 +183,8 @@ blockquote.phone {
 	color: #FFFFFF;
 	font-weight: bold;
 	text-align: left;
-	padding-left: 65px;
-	padding-right: 120px;
-	max-width: 135px;
+	padding-left: 4.5em;
+	padding-right: 7.5em;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -216,9 +217,11 @@ blockquote.phone {
 	background-size: auto 1em, 1.3em auto, auto 1em, auto 1em;
 }
 
-/* PEOPLE!! */
 .whatsapp .contact.Carla:before {
 	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/CarlaDuquette/ContactPic-Carla.png");
+}
+.whatsapp .contact.Valerio:before {
+	background-image: url("https://raw.githubusercontent.com/Azdaema/For-X/master/CarlaDuquette/ContactPic-Valerio.png");
 }
 
 /**************************************************
